@@ -1,0 +1,29 @@
+# Dependencies
+**/node_modules/
+
+# Production builds
+**/dist/
+**/dist-ssr/
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Documentation (Internal / Not for submission)
+docs/
+docs
+**/docs/
+
+# Logs
+**/logs/
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System & IDE files
+.DS_Store
+.vscode/
+.idea/
